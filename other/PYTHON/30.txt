@@ -1,0 +1,5 @@
+Nhập vào giá trị thực a,b,c
+delta=b*b-4*a*c
+nếu delta > 0 thì xuất ra phương trình vô nghiệm
+sau đó nếu delta = 0 thì xuất ra phương trình có nghiệm kép rồi ghi kết quả x theo công thức -b/(2*a)
+nếu khác thì xuất ra phương trình có hai nghiệm phân biệt rồi ghi hai kết quả x1, x2 theo công thức (-b+delta**(1/2))/(2*a) và (-b-delta**(1/2))/(2*a)
