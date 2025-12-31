@@ -1,0 +1,4 @@
+.env
+help_command.json
+__pycache__/
+*.pyc
