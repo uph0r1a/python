@@ -1,6 +1,10 @@
 Rent,1200
-Gas,150
-Food,400
-Clothing,120
-Car payment,350
-Misc,180
+Groceries,350
+Utilities,180
+Transportation,150
+Entertainment,100
+Dining Out,220
+Internet,80
+Phone,60
+Insurance,200
+Miscellaneous,90

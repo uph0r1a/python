@@ -2,9 +2,13 @@ import matplotlib.pyplot as plt
 
 gas_prices = []
 
-with open("files/1994_Weekly_Gas_Averages.txt", "r") as file:
-    for line in file:
-        gas_prices.append(float(line.strip()))
+try:
+    with open("files/1994_Weekly_Gas_Averages.txt") as file:
+        for line in file:
+            gas_prices.append(float(line.strip()))
+
+except Exception as e:
+    print(f"Error: {e}")
 
 weeks = list(range(1, len(gas_prices) + 1))
 

@@ -3,15 +3,22 @@ import matplotlib.pyplot as plt
 categories = []
 amounts = []
 
-with open("files/expenses.txt", "r") as file:
-    for line in file:
-        category, amount = line.strip().split(",")
-        categories.append(category)
-        amounts.append(float(amount))
+try:
+    with open("files\expenses.txt") as file:
+        for line in file:
+            category, amount = line.strip().split(",")
+            categories.append(category)
+            amounts.append(float(amount))
 
-plt.figure(figsize=(8, 8))
-plt.pie(amounts, labels=categories, autopct="%1.1f%%", startangle=140)
-plt.title("Monthly Expenses Breakdown")
-plt.axis("equal")
+except Exception as e:
+    print(f"Error: {e}")
+    exit()
 
-plt.show()
+if categories and amounts:
+    plt.figure(figsize=(8, 8))
+    plt.pie(amounts, labels=categories, autopct="%1.1f%%", startangle=140)
+    plt.title("Monthly Expenses Breakdown")
+    plt.axis("equal")
+    plt.show()
+else:
+    print("No valid expense data to display.")
