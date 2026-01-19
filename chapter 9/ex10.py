@@ -28,5 +28,4 @@ def main():
     print("Index file created successfully.")
 
 
-if __name__ == "__main__":
-    main()
+main()

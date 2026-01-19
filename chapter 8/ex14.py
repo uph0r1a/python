@@ -1,60 +1,98 @@
 def main():
     prices = []
 
-    with open("GasPrices.txt", "r") as file:
-        for line in file:
-            date, price = line.strip().split(":")
-            month, day, year = date.split("-")
-            prices.append((date, int(month), int(year), float(price)))
+    try:
+        with open("files/GasPrices.txt") as file:
+            for line in file:
+                date, price = line.strip().split(":")
+                month, day, year = date.split("-")
+                prices.append((date, int(month), int(year), float(price)))
+
+    except Exception as e:
+        print(f"Error: {e}")
+        return
 
     year_prices = {}
     month_prices = {}
     year_high_low = {}
 
+    # Process data
     for date, month, year, price in prices:
-        year_prices.setdefault(year, []).append(price)
+        if year in year_prices:
+            year_prices[year].append(price)
+        else:
+            year_prices[year] = [price]
 
-        month_prices.setdefault(month, []).append(price)
+        if month in month_prices:
+            month_prices[month].append(price)
+        else:
+            month_prices[month] = [price]
 
         if year not in year_high_low:
-            year_high_low[year] = {"high": (date, price), "low": (date, price)}
+            year_high_low[year] = {
+                "high_date": date,
+                "high_price": price,
+                "low_date": date,
+                "low_price": price,
+            }
         else:
-            if price > year_high_low[year]["high"][1]:
-                year_high_low[year]["high"] = (date, price)
-            if price < year_high_low[year]["low"][1]:
-                year_high_low[year]["low"] = (date, price)
+            if price > year_high_low[year]["high_price"]:
+                year_high_low[year]["high_price"] = price
+                year_high_low[year]["high_date"] = date
+
+            if price < year_high_low[year]["low_price"]:
+                year_high_low[year]["low_price"] = price
+                year_high_low[year]["low_date"] = date
 
     print("Average Price Per Year:")
-    for year in sorted(year_prices):
-        avg = sum(year_prices[year]) / len(year_prices[year])
+    for year in year_prices:
+        total = 0
+        for p in year_prices[year]:
+            total += p
+        avg = total / len(year_prices[year])
         print(year, f"${avg:.2f}")
 
     print("\nAverage Price Per Month:")
-    for month in sorted(month_prices):
-        avg = sum(month_prices[month]) / len(month_prices[month])
+    for month in month_prices:
+        total = 0
+        for p in month_prices[month]:
+            total += p
+        avg = total / len(month_prices[month])
         print(month, f"${avg:.2f}")
 
     print("\nHighest and Lowest Prices Per Year:")
-    for year in sorted(year_high_low):
-        high = year_high_low[year]["high"]
-        low = year_high_low[year]["low"]
+    for year in year_high_low:
         print(year)
-        print("  High:", high[0], f"${high[1]:.2f}")
-        print("  Low :", low[0], f"${low[1]:.2f}")
+        print(
+            "  High:",
+            year_high_low[year]["high_date"],
+            f"${year_high_low[year]['high_price']:.2f}",
+        )
+        print(
+            "  Low :",
+            year_high_low[year]["low_date"],
+            f"${year_high_low[year]['low_price']:.2f}",
+        )
 
-    prices_sorted_low = sorted(prices, key=lambda x: x[3])
-    prices_sorted_high = sorted(prices, key=lambda x: x[3], reverse=True)
+    prices_low_to_high = prices[:]
+    for i in range(len(prices_low_to_high)):
+        for j in range(i + 1, len(prices_low_to_high)):
+            if prices_low_to_high[i][3] > prices_low_to_high[j][3]:
+                prices_low_to_high[i], prices_low_to_high[j] = (
+                    prices_low_to_high[j],
+                    prices_low_to_high[i],
+                )
 
     with open("files/prices_low_to_high.txt", "w") as file:
-        for p in prices_sorted_low:
-            file.write(f"{p[0]} ${p[3]:.2f}\n")
+        for date, month, year, price in prices_low_to_high:
+            file.write(f"{date} ${price:.2f}\n")
 
     with open("files/prices_high_to_low.txt", "w") as file:
-        for p in prices_sorted_high:
-            file.write(f"{p[0]} ${p[3]:.2f}\n")
+        for i in range(len(prices_low_to_high) - 1, -1, -1):
+            date, month, year, price = prices_low_to_high[i]
+            file.write(f"{date} ${price:.2f}\n")
 
     print("\nPrice lists written to files.")
 
 
-if __name__ == "__main__":
-    main()
+main()

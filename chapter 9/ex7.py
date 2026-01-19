@@ -3,34 +3,31 @@ def main():
     year_winner = {}
 
     start_year = 1903
-    year = start_year
 
-    with open("files/WorldSeriesWinners.txt") as file:
-        for line in file:
-            winner = line.strip()
+    try:
+        with open("files/WorldSeriesWinners.txt") as file:
+            for i, line in enumerate(file):
+                year = start_year + i
+                winner = line.strip()
 
-            if winner == "World Series Not Played":
-                year += 1
-                continue
+                if winner == "World Series Not Played":
+                    continue
 
-            year_winner[year] = winner
+                year_winner[year] = winner
+                team_wins[winner] = team_wins.get(winner, 0) + 1
 
-            if winner in team_wins:
-                team_wins[winner] += 1
-            else:
-                team_wins[winner] = 1
+    except Exception as e:
+        print(f"Error: {e}")
+        return
 
-            year += 1
+    year = int(input("Enter a year between 1903 and 2009: "))
 
-    user_year = int(input("Enter a year between 1903 and 2009: "))
-
-    if user_year in year_winner:
-        team = year_winner[user_year]
-        print(f"Winner in {user_year}: {team}")
+    if year in year_winner:
+        team = year_winner[year]
+        print(f"Winner in {year}: {team}")
         print(f"Total World Series wins: {team_wins[team]}")
     else:
         print("The World Series was not played that year.")
 
 
-if __name__ == "__main__":
-    main()
+main()

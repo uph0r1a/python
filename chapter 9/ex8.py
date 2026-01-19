@@ -7,13 +7,14 @@ def load_data():
     try:
         with open(FILE_NAME, "rb") as file:
             return pickle.load(file)
-    except FileNotFoundError:
+    except Exception as e:
+        print(f"Error: {e}")
         return {}
 
 
-def save_data(data):
+def save_data(emails):
     with open(FILE_NAME, "wb") as file:
-        pickle.dump(data, file)
+        pickle.dump(emails, file)
 
 
 def main():
@@ -31,7 +32,10 @@ def main():
 
         if choice == "1":
             name = input("Enter name: ")
-            print("Email:", emails.get(name, "Name not found."))
+            if name in emails:
+                print("Email:", emails[name])
+            else:
+                print("Name not found.")
 
         elif choice == "2":
             name = input("Enter name: ")
@@ -61,8 +65,7 @@ def main():
             break
 
         else:
-            print("Invalid choice.")
+            print("Invalid choice. Please try again.")
 
 
-if __name__ == "__main__":
-    main()
+main()
