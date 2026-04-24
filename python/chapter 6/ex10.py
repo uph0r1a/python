@@ -1,7 +1,6 @@
 def inputScore():
     try:
         with open("files/golf.txt", "a") as f:
-
             print("Enter player's name: ", end="")
             name = input()
 
@@ -16,7 +15,6 @@ def inputScore():
 def outputScore():
     try:
         with open("files/golf.txt") as f:
-
             line = f.readline()
             if line == "":
                 print("No record yet")
