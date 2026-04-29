@@ -1,0 +1,93 @@
+TITLE: Beneath King Charles’s Jokes and Decorum, Some Subtle Rebuttals to Trump
+LINK: https://www.nytimes.com/2026/04/28/us/politics/king-charles-trump-rebuke.html
+DESC: King Charles III gently pushed back against President Trump’s attacks on Britain and NATO, and he spoke of the importance of checks and balances.
+TITLE: At State Dinner, King Charles Charms the Court of Trump
+LINK: https://www.nytimes.com/2026/04/29/us/politics/king-charles-trump-state-dinner.html
+DESC: King Charles III presented President Trump with a golden bell. “Should you ever need to get hold of us,” the king said, “well, just give us a ring!”
+TITLE: Musk vs. Altman, and a Pivotal Immigration Case at the Supreme Court
+LINK: https://www.nytimes.com/2026/04/29/podcasts/the-headlines/musk-altman-trial-immigration-supreme-court.html
+DESC: Plus, why nursing homes are hiring M.M.A. fighters.
+TITLE: Supreme Court Considers Trump’s Plan to Revoke Deportation Protections
+LINK: https://www.nytimes.com/2026/04/29/us/politics/supreme-court-trump-deportations.html
+DESC: The Trump administration wants to terminate humanitarian protections known as Temporary Protected Status for hundreds of thousands of migrants from Haiti and Syria.
+TITLE: Judge Asks Justice Department: Will You Oppose Trump?
+LINK: https://www.nytimes.com/2026/04/29/us/politics/trump-justice-department-lawsuit-tax-returns-disclosure.html
+DESC: A federal judge has ordered the Justice Department to explain whether it intends to contest President Trump’s $10 billion lawsuit against the I.R.S. over the disclosure of his tax returns.
+TITLE: In France, American Universities Lose Their Allure in the Trump Era
+LINK: https://www.nytimes.com/2026/04/29/world/europe/france-american-universities-trump-sciences-po.html
+DESC: Worries about visas, academic freedom and safety are making foreign schools, like Sciences Po in Paris, more attractive to some students than the Ivy League.
+TITLE: DOJ Secures New James Comey Indictment Over Alleged Threat Against Trump
+LINK: https://www.nytimes.com/2026/04/28/us/politics/james-comey-indictment.html
+DESC: The new case stems from a social media post showing seashells on a North Carolina beach that the Trump administration characterized as a threat against the president.
+TITLE: Gallows Humor Provides Respite From Mideast Wars
+LINK: https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html
+DESC: Arab digital creators on social media are turning out edgy material to cope with the conflicts and bring levity to a pain that often feels too raw.
+TITLE: New Disney Boss Is Tested by Trump and His Administration
+LINK: https://www.nytimes.com/2026/04/29/business/media/disney-ceo-josh-damaro-fcc-abc-trump.html
+DESC: Josh D’Amaro, who took the helm in February, will have to lead Disney through surprising new scrutiny from the president.
+TITLE: Jay-Z Breaks Down the Stories Behind His Most Famous Songs
+LINK: https://www.nytimes.com/2026/04/28/magazine/jayz-songs-lyrics-rhythm-process.html
+DESC: The artist shares stories behind his famous songs, the writing challenges he sets for himself and how he has sustained a hip-hop career.
+TITLE: How Taylor Swift Writes a Song, In Her Own Words
+LINK: https://www.nytimes.com/2026/04/28/magazine/taylor-swift-songwriting-process-interview.html
+DESC: The artist shares stories behind some of her biggest hits, her love of a “rant bridge” and how life in the public eye informs the stories she tells in her songs.
+TITLE: Epstein Obtained Objects From Islam’s Holiest Site for His Island ‘Mosque’
+LINK: https://www.nytimes.com/2026/04/29/world/americas/jeffrey-epstein-islam-mosque-island-kaaba-sex-offender-kiswa.html
+DESC: Jeffrey Epstein’s messages cast light on an unusual building on his private island and show how his connections helped him secure tapestries from Mecca for it.
+TITLE: What to Watch at the Federal Reserve’s April Meeting
+LINK: https://www.nytimes.com/2026/04/29/business/economy/what-to-watch-at-the-federal-reserves-april-meeting.html
+DESC: The U.S. central bank is widely expected to hold interest rates steady at what is scheduled to be Jerome H. Powell’s final meeting as chair.
+TITLE: A.I. Bots Told Scientists How to Make Biological Weapons
+LINK: https://www.nytimes.com/2026/04/29/us/ai-chatbots-biological-weapons.html
+DESC: Scientists shared transcripts with The Times in which chatbots described how to assemble deadly pathogens and unleash them in public spaces.
+TITLE: Takeaways From the California Governor Debate at Pomona College
+LINK: https://www.nytimes.com/2026/04/29/us/elections/california-governor-debate-pomona.html
+DESC: The candidates felt pressure to differentiate themselves, with ballots going out to voters next week. The result was a more spirited battle than past debates.
+TITLE: In First Campaign Ad, Schlossberg Leans on a Well-Known Name: Pelosi
+LINK: https://www.nytimes.com/2026/04/29/nyregion/jack-schlossberg-campaign-ad.html
+DESC: Jack Schlossberg, the grandson of John F. Kennedy, is among a slate of Democrats seeking to replace Representative Jerrold Nadler of New York.
+TITLE: He Defied the State to Fortify His Mansion. Now He Wants to Be Governor.
+LINK: https://www.nytimes.com/2026/04/29/us/rom-reddy-seawall-south-carolina-governor.html
+DESC: Rom Reddy has pushed to protect his beachfront mansion in South Carolina from what he calls “government overreach.” The fight, he said, inspired his political awakening.
+TITLE: In Backlash Against Tech in Schools, Parents Are Winning Rollbacks
+LINK: https://www.nytimes.com/2026/04/29/technology/parents-school-tech-backlash.html
+DESC: From Salt Lake City to New York City, parents are demanding more sway over the digital tools that schools give children.
+TITLE: A.I. Helps Online Ad Businesses Boom
+LINK: https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html
+DESC: Google and Meta are enjoying a digital ad boom, as artificial intelligence automates marketing and drives record sales.
+TITLE: Meta Charged With Failing to Keep Children Off Instagram and Facebook in Europe
+LINK: https://www.nytimes.com/2026/04/29/business/meta-instagram-facebook-children.html
+DESC: European Union regulators said the company did not have effective controls to check a user’s self-declared date of birth, in violation of an online safety law.
+TITLE: OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years
+LINK: https://www.nytimes.com/2026/04/28/technology/openai-trial-elon-musk-sam-altman.html
+DESC: In the trial’s first day of testimony, Elon Musk said greed led co-founder Sam Altman to pull the A.I. lab away from its nonprofit roots. OpenAI says that’s nonsense.
+TITLE: Global Deforestation Slows, W.R.I. Report Finds. But Wildfires Are Taking a Toll.
+LINK: https://www.nytimes.com/2026/04/29/climate/wri-report-forest-loss.html
+DESC: In 2025, the world razed less forest than any other year in the last decade. The bad news: global warming is making wildfires more frequent and intense.
+TITLE: Meryl Streep, Anne Hathaway and the ‘Devil Wears Prada’ Cast on the Sequel
+LINK: https://www.nytimes.com/2026/04/29/movies/devil-wears-prada-meryl-streep-anne-hathaway.html
+DESC: Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci and the director David Frankel on “The Devil Wears Prada,” the sequel and who’s mean in real life.
+TITLE: The Supreme Court Should Stop ICE From Racially Profiling
+LINK: https://www.nytimes.com/2026/04/29/opinion/ice-racial-profiling-supreme-court.html
+DESC: Body camera footage reveals a disturbing pattern of state and federal officials using minor traffic stops to target Black and brown drivers.
+TITLE: Spirit Airlines Should Die. Why Is Trump Trying to Save It?
+LINK: https://www.nytimes.com/2026/04/29/opinion/spirit-airlines-trump-bailout-auto.html
+DESC: Steven Rattner argues that Trump’s effort to bail out the ailing carrier makes no sense.
+TITLE: An Age of Political Violence?
+LINK: https://www.nytimes.com/2026/04/29/briefing/an-age-of-political-violence.html
+DESC: We look into whether the U.S. is in a new era of violent extremism.
+TITLE: Jimmy Kimmel Spills the Tea on Trump’s Royal Meeting
+LINK: https://www.nytimes.com/2026/04/29/arts/television/jimmy-kimmel-trump-royals.html
+DESC: The late night show host called the king of England “one of the very few people who might actually be able to tip things even slightly in a positive direction.”
+TITLE: Supreme Court Appears Skeptical of Falun Gong Lawsuit Against Cisco
+LINK: https://www.nytimes.com/2026/04/28/us/politics/supreme-court-falun-gong-tech.html
+DESC: The court’s decision could have broader implications for lawsuits seeking to hold companies liable for international human rights abuses.
+TITLE: San Antonio Poverty Rate Remains High Despite Rapid Growth, Census Data Shows
+LINK: https://www.nytimes.com/2026/04/29/us/san-antonio-texas-poverty-rate-census.html
+DESC: The city’s rapid expansion brought new jobs and investment, but decades of low wages and limited access to education and housing have kept many residents from reaching the middle class.
+TITLE: New York City Announces Proposed Designs for Park Avenue Overhaul
+LINK: https://www.nytimes.com/2026/04/29/nyregion/park-avenue-redesign-plan.html
+DESC: The city plans to widen the median on an 11-block stretch of the boulevard, removing two traffic lanes, to provide space where people can stroll or linger.
+TITLE: Mamdani’s Candidate Concedes in High-Profile Council Race in Manhattan
+LINK: https://www.nytimes.com/2026/04/28/nyregion/nyc-city-council-election.html
+DESC: The City Council special election pitting Lindsey Boylan, backed by Mayor Zohran Mamdani, against Carl Wilson, a community activist, was not officially called. But Ms. Boylan conceded.
