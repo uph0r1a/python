@@ -1,6 +1,6 @@
+import datetime
+
+current_year = datetime.datetime.now().year
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
-
-print(
-    f"Name: {name}\nAge: {age}\nThe year {name} turn 100 years old: {2026 - age + 100}"
-)
+print(f"{name}, you will be 100 years old in {current_year - age + 100}")
